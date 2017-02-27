@@ -11,8 +11,6 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private boolean downloadInBg;
-
     private Button start;
     private Button pause;
     private Button cancel;

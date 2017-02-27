@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         startService(intent);
         bindService(intent, connection, BIND_AUTO_CREATE);
 
-        //aBranch
+        //another branch
     }
 
     public void onClick(View view) {

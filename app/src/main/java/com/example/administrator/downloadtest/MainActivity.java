@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DownloadService.class);
         startService(intent);
         bindService(intent, connection, BIND_AUTO_CREATE);
+
+        //aBranch
     }
 
     public void onClick(View view) {
